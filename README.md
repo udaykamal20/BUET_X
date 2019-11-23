@@ -4,6 +4,8 @@ This repository contains the code and submission files of Team BUET_X (FPGA sect
 
 ![alt text](https://github.com/udday2014/BUET_X/blob/master/dac_hdc_ranking.png)
 
+![alt text](https://github.com/udday2014/BUET_X/blob/master/design.png)
+
 The competition details and the dataset can be found from the following link: http://www.cse.cuhk.edu.hk/~byu/2019-DAC-SDC/
 
 We built a Yolo-like light wieght object detection model, where spatial convolution was replaced by the Zero flop, Zero parameter shift layer. The model was built using pytorch and trained on the provided dataset. Then the model was quantized to 8bit precision, and suitable HLS code was developed to implement the model on the Xilinx Ultra96 FPGA board. 
